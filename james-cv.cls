@@ -198,7 +198,7 @@
 \newenvironment{aside}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
-    \par\vspace{0\baselineskip}{\Large\headingfont\color{headercolor} ##1}
+    \par\vspace{0.25\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
   \begin{textblock}{4.5}(0.75, 4.25)
   \begin{flushright}
