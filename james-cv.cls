@@ -198,7 +198,7 @@
 \newenvironment{aside}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
-    \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
+    \par\vspace{1\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
   \begin{textblock}{4.5}(0.75, 4.25)
   \begin{flushright}
@@ -213,7 +213,7 @@
 \newenvironment{aside1}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
-    \par\vspace{0.25\baselineskip}{\Large\headingfont\color{gray} ##1}
+    \par\vspace{1\baselineskip}{\Large\headingfont\color{gray} ##1}
   }
   \begin{textblock}{4.8}(0.6, 1.32)
   \begin{flushright}
@@ -228,7 +228,7 @@
 \newenvironment{aside2}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
-    \par\vspace{0.25\baselineskip}{\Large\headingfont\color{gray} ##1}
+    \par\vspace{1.0\baselineskip}{\Large\headingfont\color{gray} ##1}
   }
   \begin{textblock}{4.5}(1.4, 1.32)
   \begin{justify}
