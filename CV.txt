@@ -1,0 +1,471 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% XeLaTeX Template
+%
+% Original template adapted from:
+% http://www.LaTeXTemplates.com
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX 
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[hidelinks]{james-cv} % Hide squares around links in live .pdf
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{bbding}
+\usepackage{color}
+\usepackage{ragged2e}
+\usepackage{marvosym}
+\usepackage{xunicode}
+\usepackage{fontspec}
+\usepackage{fontawesome5}
+\usepackage{fixltx2e}
+\usepackage[hidelinks]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\header{Robert }{James}{Post Doctoral Research Fellow} % Header see fonts in config
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION 1
+%----------------------------------------------------------------------------------------
+
+\begin{aside} 
+\section{Contact}
+3 Coventry Rd.
+Princethorpe, Rugby 
+CV23 9QF
+United Kingdom 
+~
+\color{black}\bodyfontcontact +$44$ $7445$ $317$ $815$ \Mobilefone
+\color{blue}\href{mailto:r.james.5@warwick.ac.uk}{r.james.5@warwick.ac.uk} \color{black}\Envelope
+\color{blue}\href{https://github.com/BadgerRob}{BadgerRob } \color{black}\faGithub
+\color{blue}\href{http://twitter.com/Robert_S_James}{Robert\_S\_James} \color{black}\faTwitter
+\headingfont\section{Technical Skills}
+\thinfont\footnotesize\addfontfeature{Color=gray} Long-read sequencing \textbullet{}
+HMW DNA extraction \textbullet{}
+RNA extraction \textbullet{}
+Clone library construction \textbullet{}
+Illumina library preparation \textbullet{}
+qPCR \textbullet{}
+rt-qPCR \textbullet{}
+PFGE \textbullet{}
+qPCR assay design \textbullet{}
+LAMP assay design \textbullet{}
+Hi-C \textbullet{}
+Target enriched meta Pore-C \textbullet{}
+Bacterial cell culture \textbullet{}
+Aseptic technique \textbullet{}
+Non-invasive genetic sampling \textbullet{}
+CL III laboratory use \textbullet{}
+Ecological experimental design \textbullet{}
+Multivariate statistical analysis \textbullet{}
+\headingfont\section{Computational skills}
+\emergencystretch=5pt\justify\thinfont\footnotesize\nolinebreak\addfontfeature{Color=gray}Windows OS, Linux OS, Mac OS, R R-studio, Python, \LaTeX, Bash, IGV, ITOL, RAST, Prokka, BLAST, Kraken, Artemis, Bandage, MinKnow, Guppy, Tablet, EndNote, Hybrid genome assembly, Hybrid metagenomic assembly, Sequence annotation, MS Office, Climb group server administration, Community / population analysis, TexMaker, Mega X, Pipeline construction.\headingfont\flushright\section{Training}
+
+\flushright\thinfont\footnotesize\addfontfeature{Color=gray} 
+Dangerous goods UN3373 \textbullet{}
+Human tissues act \textbullet{}
+Equality and diversity \textbullet{}
+Unconscious bias exercise \textbullet{}
+CL III laboratory training \textbullet{}
+Liquid nitrogen handling training \textbullet{}
+Phenol trained individual \textbullet{}
+Phenol key-holder \textbullet{}
+Spill training \textbullet{}
+Ultrafuge training \textbullet{}
+Strain collection \textbullet{}
+PhD student mentor \textbullet{}
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+\entry
+{$2010$ - $2015$}
+{\bodyfontsc\textsc{Doctor of Philosophy}}
+{The University of Brighton, Sussex}
+{\normalsize\textrm{The population genetics of the black-backed jackal} \textit{(Canis mesomelas)} \normalsize\textrm{in game farm ecosystems of South Africa.}\\*
+\normalsize\textrm{Supervisor One:} \normalsize\textsc{Scott, DM.}\\*
+\normalsize\textrm{Supervisor Two:} \normalsize\textsc{Overall, ADJ.}\\*
+\thinfont\color{blue}\href{https://research.brighton.ac.uk/en/studentTheses/the-population-dynamics-of-the-black-backed-jackal-canis-mesomela}{Doctoral Thesis}}\\*
+	
+%------------------------------------------------
+\entry
+{$2007$ - $2008$}
+{\bodyfontsc\textsc{Master of Science}}
+{Imperial College London - Silwood Park}
+{\normalsize\textrm{Evolution, Ecology and Conservation}\\* 
+\normalsize\textrm {The community structure of non pollinating fig wasps in \textit{Ficus rubiginosa} \textrm{and} \textit {Ficus macrophylla}.} \\*
+\normalsize\textrm{Supervisor:} \normalsize\textsc{Cook, JM.}}\\*
+	
+%------------------------------------------------
+\entry
+{$2004$ - $2007$}
+{\bodyfontsc\textsc{Bachelor of Science}}
+{The University of Exeter}
+{\normalsize\textrm{Biological Science}\\* 
+\normalsize\textrm {The effect of iron deficiency on the root hair development of \textit{Arabidopsis thaliana.}} \\*
+\normalsize\textrm{Supervisor:} \normalsize\textsc{Smirnoff, N.}}	
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+%	EMPLOYMENT SECTION
+%----------------------------------------------------------------------------------------
+\section{Employment and experience}
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{$2019$ - $2020$}
+{\textsc{Post doctoral researcher}}
+{The University of Warwick}
+{\bodyfontsc\color{gray}{Strains and genomes:} \emph{Strain level resolution from metagenomic sequence data} 
+\color{gray}\normalsize\thinfont The ability to partition strain level genetic variation in complex microbial communities provides a means to identify medically relevant taxa and investigate the relationship between community composition and function. However, accurate metagenomic assembly and analysis is challenging due to the genetic homogeneity of microbial communities and the complex assembly graphs they produce. Increasing the length of the sequence data can explain a greater proportion of genetic variation in a single read and aid in producing more accurate and contiguous metagenome assemblies. The aim of this project is to develop graph based Bayesian algorithms and benchmark them in-situ to define strain haplotypes at high resolution. Mock communities of sequenced isolates have been constructed and are used for algorithm benchmarking. This is followed by the application to a longitudinal study of a novel treatment for Crohn's disease and the resolution of antimicrobial resistance genes in the environment.           
+\begin{itemize}
+\item Long read sequencing and library preps. Max run 42 Gbp N50 27 kb
+\item HMW DNA extraction from complex communities and robust isolates
+\item Hybrid genome assembly pipeline
+\item Mock community construction and sequencing
+\item Hi-C method development
+\item Long-read enriched metagenomic chromatin conformation 
+\item qPCR assay development Sul1
+\item Class1 integron amplicon diversity
+\end{itemize}  
+\bodyfontsc\nolinebreak{Line Managers: }\textsc{Wellington, EM., Quince, C.}\\*
+\bodyfontsc\nolinebreak{DOI: }\thinfont\color{blue}\href{https://www.biorxiv.org/content/10.1101/2020.06.05.133348v1}{https://doi.org/10.1101/2020.06.05.133348}\\*
+\bodyfontsc\nolinebreak\color{gray}{DOI: }\thinfont\color{blue}\href{https://www.biorxiv.org/content/10.1101/2020.06.05.133348v1}{plasmid paper}\\*
+\bodyfontsc\nolinebreak\color{gray}{DOI: }\thinfont\color{blue}\href{https://www.biorxiv.org/content/10.1101/2020.06.05.133348v1}{AD paper}}\\*
+\end{entrylist}
+\nopagebreak
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{$2016$ - $2019$}
+{\textsc{Post doctoral researcher}}
+{The University of Warwick}
+{\bodyfontsc\color{gray}{Myobacterium bovis and the farmland ecosystem: } \emph{An overlooked source of bovine Tb}\\*
+\color{gray}\normalsize\thinfont The environment is an overlooked source of \textit{Mycobacterium bovis}, the causative agent of bovine TB. Bacteria shed into the environment by infected hosts can persist and present a potential reservoir of infection. While cattle to cattle transmission is addressed through bovine testing and movement restrictions, the environment remains an overlooked transmission route of \textit{M. bovis} in the context of both cattle - cattle and wildilife - cattle interactions. In this study we aim to detect and quantify the genomic signature of \textit{M. bovis} in a range of environmental samples collected from 16 high risk farms in the South West of England. Samples include farm soil, cow faeces, badger faeces, badger set soil, barn substrate and water trough silt. This data has allowed us to identify potential hotspots of transmission in farmland environments. Furthermore, a strain typing method using long read sequencing has been developed to confirm the presence of the pathogenic \texit {M. bovis} in environmental samples and resolve their spoligotype.  
+\color{gray}\normalsize\thinfont            
+\begin{itemize}
+\item DNA extraction from environmental samples
+\item CL III laboratory use
+\item qPCR detection and quantification of \textit{M. bovis}
+\item Sequence based strain typing method for \textit{M. bovis} 
+\item Specificity and sensitivity panel construction
+\item Strain level LAMP detection of Mycobacterium species
+\item Plasmid isolation sequencing and assembly
+\item Clone library construction
+\item Sample management system
+\item Data management
+\end{itemize}  
+\bodyfontsc\nolinebreak{Line Manager: }\textsc{Wellington, EM.}\\*
+\bodyfontsc\nolinebreak{Responsibilities: }\textsc{Laboratory technician}\\*
+\bodyfontsc\nolinebreak{DOI: }\thinfont\color{blue}\href{https://www.biorxiv.org/content/10.1101/791129v2}{https://doi.org/10.1101/791129}\\*
+\bodyfontsc\nolinebreak\color{gray}{DOI: }\thinfont\color{blue}\href{https://www.biorxiv.org/content/10.1101/790824v1}{https://doi.org/10.1101/790824}}\\*
+
+\entry
+{$2016$ - $2016$}
+{\textsc{Research associate}}
+{The University of Brighton}
+{\bodyfontsc\color{gray}{Population genetics: } \emph{Food availability and population structure}\\*
+\color{gray}\normalsize\thinfont The ability to describe a group of individuals in terms of their genetic composition provides a means to measure the degree of isolation between populations in the wild. By comparing the genetic diversity within and between individuals and groups, information about the migration,dispersal and breeding structure of a population can be deduced. While this information is highly relevant to the fields of ecology, evolution and conservation, the success of such studies is often reliant on both the availability of genetic markers and the effort required to sample a wild population. In this study, we developed and tested six genetic markers for the black-backed jackal, a common disease vector and conflict species in South Africa, and presented a sampling method that is capable of isolating DNA from the faecal deposits of this species. This has enabled us to identify the genetic composition of a wild population of black-backed jackals.  
+\color{gray}\normalsize\thinfont            
+\begin{itemize}
+\item DNA extraction from faecal samples
+\item Microsatellite marker characterisation
+\item qPCR \textit{M. bovis}
+\item Application of fixation statistics \textit{M. bovis} 
+\item Field work
+\end{itemize}  
+\bodyfontsc\nolinebreak{Line Manager: }\textsc{Overall, ADJ., Scott, DM., Yarnell, R.}\\*
+\bodyfontsc\nolinebreak{DOI: }\thinfont\color{blue}\href{https://www.tandfonline.com/doi/full/10.1080/23312025.2015.1108479}{https://doi.org/10.1080/23312025.2015.1108479}\\*
+\bodyfontsc\nolinebreak\color{gray}{DOI: }\thinfont\color{blue}\href{https://zslpublications.onlinelibrary.wiley.com/doi/abs/10.1111/jzo.12407}{https://doi.org/10.1111/jzo.12407}}\\*
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR2 Referees
+%----------------------------------------------------------------------------------------
+
+\begin{aside1}
+\color{gray}\headingfontcontact
+\section{Referees}
+~
+~
+\normalsize\color{gray}\bodyfontsc\textsc{Prof. Elizabeth Wellington}
+\bodyfontcontact\normalsize
+School of Life Science
+University of Warwick
+Gibbet Hill Campus
+CV4 7AL
++$44$ $7976$ $633$ $971$ \Phone
+\footnotesize\mail\href{mailto:e.m.h.wellington@warwick.ac.uk}{e.m.h.wellington}\\*\href{mailto:e.m.h.wellington@warwick.ac.uk}{@warwick.ac.uk} \Envelope
+\color{blue}\href{https://warwick.ac.uk/fac/sci/lifesci/research/wrg/} {Wellington}
+~
+\\*
+~
+\color{gray}\normalsize\bodyfontsc\textsc{Dr. Christopher Quince}
+\bodyfontcontact\normalsize
+Warwick Medical School
+University of Warwick
+Gibbet Hill Campus
+CV4 7AL
++$44$ $7399$ $359$ $793$ \Phone
+\footnotesize\mail\href{mailto:c.quince@warwick.ac.uk}{c.quince@warwick.ac.uk} \Envelope 
+\color{blue}\href{https://warwick.ac.uk/fac/sci/med/staff/cquince/}{Quince}
+~
+\\*
+~
+\color{gray}\normalsize\bodyfontsc\textsc{Dr. Gavin Collins}
+\bodyfontcontact\normalsize
+Microbiology
+NUI Galway
+Ireland
+BN2 4GJ
+UK
++T$353$ $91$ $524411$ Ext $3163$ \Phone
+\footnotesize\mail\href{mailto:gavin.collins@nuigalway.ie}{gavin.collins@nuigalway.ie} \Envelope 
+\color{blue}\href{https://www.nuigalway.ie/our-research/people/natural-sciences/gavincollins/}{Collins}
+
+~
+\\*
+~
+\color{gray}\normalsize\bodyfontsc\textsc{Dr. Andrew DJ Overall}
+\bodyfontcontact\normalsize
+Pharmacy and Biomolecular Sciences
+University of Brighton
+Moulsecoomb
+Brighton
+BN2 4GJ
+UK
++$44$ $127$ $364$ $2099$ \Phone
+\footnotesize\mail\href{mailto:A.D.J.Overall@brighton.ac.uk}{a.d.j.Overall}\\*\href{mailto:A.D.J.Overall@brighton.ac.uk}{@brighton.ac.uk} \Envelope
+\color{blue}\href{https://research.brighton.ac.uk/en/persons/andrew-overall}{Overall}
+
+~
+\\*
+~
+
+\color{gray}\bodyfontsc\normalsize\textsc{Prof. Dawn Scott}
+\bodyfontcontact\normalsize
+Life Sciences
+Huxley Building
+Keel University
+Staffordshire
+ST5 5BG
+UK
++$44$ $1782$ $732$ $742$ \Phone
+\footnotesize\mail\href{mailto:d.scott@keele.ac.uk}{d.scott@keele.ac.uk} \Envelope
+\color{blue}\href{https://www.keele.ac.uk/lifesci/ourpeople/dawnscott/}{Scott}
+
+\end{aside1}
+
+%----------------------------------------------------------------------------------------
+%	EMPOYMENT Cont.
+%----------------------------------------------------------------------------------------
+
+\begin{entrylist}
+\entry
+{$2014$ - $2016$}
+{\textsc{Visiting Lecturer}}
+{The University of Brighton}
+{\bodyfontsc\color{gray}{Evolution and ecology: } \emph{Ecology, population genetics \& R for ecologists} 
+\color{gray}\normalsize\thinfont\item Construct and deliver lecture sets to 2nd \& 3rd year undergraduates and run an introductory workshop for the program R designed for master students analysing ecological data sets.
+\bodyfontsc\nolinebreak\color{gray}{Line Managers: }\textsc{Scott, DM., Overall, ADJ.}}\\*
+
+\entry
+{$2010$ - $2015$}
+{\textsc{Earthwatch Investigator}}
+{The University of Brighton}
+{\bodyfontsc\color{gray}{The Scavengers of South Africa: } \emph{Lead field scientist}\\*
+\color{gray}\normalsize\thinfont The Earthwatch institute is a not for profit organisation that runs ecological research projects in collaboration with academic research groups around the world. Using a citizen science model, long term census data is collected and compiled with the aid of volunteer research assistants. In this project we aimed to quantify the effect of agricultural land use on the population dynamics of African scavenging carnivores and examine correlations with livestock disease and depredation. This research project provided a subset of data that was analysed as part of my PhD. During my time as lead field scientist on this project, external volunteer reviews placed this project well within the top $10$ most recommended Earthwatch projects for content and experience (1430 projects available at the time of study).   
+\color{gray}\normalsize\thinfont            
+\begin{itemize}
+\item Collection of genetic material from tissue
+\item Non-invasive genetic sampling of faeces
+\item GPS collaring 
+\item Volunteer training
+\item Nocturnal sampling
+\item Group coordination and supervision in the field
+\item Data collection
+\item Lecture sets
+\item Game capture
+\item Base camp maintenance
+\end{itemize}  
+\bodyfontsc\nolinebreak{Line Manager: }\textsc{Scott, DM.}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR3 Additional Projects
+%----------------------------------------------------------------------------------------
+
+\begin{aside2}
+\color{gray}\headingfont\justify
+\section{Additional projects}
+\emergencystretch=15pt\justify\normalsize\bodyfontcontact\color{gray} Long read sequencing and hybrid assembly of the human gut microbiome during a dietary treatment for Crohn's disease.
+\emergencystretch=15pt\justify\normalsize\bodyfontcontact\color{gray} Selective drivers of antimicrobial resistance in the environment.
+\emergencystretch=15pt\justify\normalsize\bodyfontcontact\color{gray} Selection and persistence of \textit Sul1 \textrm in UK water systems.
+\emergencystretch=15pt\justify\normalsize\bodyfontcontact\color{gray} AMR and class 1 integrons in Pakistan and the UK.
+\emergencystretch=15pt\justify\normalsize\bodyfontcontact\color{gray} Metagenomic sequence assembly of fungal genomes.
+\emergencystretch=15pt\justify\normalsize\bodyfontcontact\color{gray} Genetic context of the Sul1 resistance gene in river sediment using long read target enriched metagenomic chromatin conformation.
+
+\end{aside2}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATIONS SECTION
+%----------------------------------------------------------------------------------------
+\subsection{Recent communications}
+
+\hspace{-19\parskip}\begin{sentrylist}
+
+\entr
+{$2019$}
+{\bodyfontsc{Poster Presentation}}
+{EDAR5: Hong Kong}
+{Antibiotic resistance in the environment: Using long read sequencing to identify the composition of ARG cassettes on class 1 integrons recovered from the environment}
+
+\entr
+{$2019$}
+{\bodyfontsc\color{blue}\href{https://www.youtube.com/watch?v=9ObT2ACDnfw}{Oral Presentation}}
+{London Calling 2019: London}
+{From amplicons to metagenomes: Long read sequencing the environment}
+
+\entr
+{$2019$}
+{\bodyfontsc\color{blue}\href{https://github.com/BadgerRob/Ebame5/blob/master/Coolship_firle_microflora_workshop.md}{Workshop presentation}}
+{Ebame5: France}
+{Metagenomics of a gueuze type lambic beer from the county of Sussex, United Kingdom}
+
+\entr
+{$2019$}
+{\bodyfontsc{Oral Presentation}}
+{NUST, Pakistan}
+{Tackling  the spread of antibacterial resistance through environmental pathways in Pakistan}
+
+\entr
+{$2018$}
+{\bodyfontsc\color{blue}\href{https://vimeo.com/272728056}{Oral Presentation}}
+{London Calling 2018: London}
+{Development and application of long read metagenomic sequencing}
+
+\entr
+{$2018$}
+{\bodyfontsc{Poster Presentation}}
+{Plasmid Biology 2018: Seattle}
+{From rivers to reeds: Long read sequencing, assembly and annotation of two large \textit{bla}\textit{\textsubscript{CTX-M}} harbouring environmental plasmids}
+
+\entr
+{$2017$}
+{\bodyfontsc{Oral Presentation}}
+{NERC CENTA Workshop, Warwick}
+{An introduction to long read sequencing}
+
+\entr
+{$2017$}
+{\bodyfontsc{Workshop}}
+{CARTNET, Warwick}
+{Hands on "bring your own bacteria" sequencing workshop}
+
+\entr
+{$2017$}
+{\bodyfontsc{Workshop}}
+{NTU Singapore Exchange, Warwick}
+{Hands on flow cell loading session}
+
+\entr
+{$2017$}
+{\bodyfontsc{Poster presentation}}
+{EradBTb, London}
+{LAMDAR: rapid strain typing tool for \textit {M. bovis} in the environment}
+
+\end{sentrylist}
+
+%----------------------------------------------------------------------------------------
+%	Student Supervision
+%----------------------------------------------------------------------------------------
+
+\subsection{Student supervision}
+\hspace{-19\parskip}\begin{sentrylist}
+
+\entr
+{$2020$}
+{\bodyfontsc\color{blue}\href{https://github.com/BadgerRob/Staging/blob/master/wrench.py}{Third year project}}
+{University of Warwick}
+{Development of a plasmid friendly long-read hybrid assembly and polishing python pipeline for environmental isolates of \textit{Escherichia coli}}
+\entr
+{$2018$}
+{\bodyfontsc\color{blue}\href{https://www.biorxiv.org/content/10.1101/2020.06.05.133348v1}{PhD mentor}}
+{University of Warwick}
+{Selection in the environment: Impact of trimethoprim on the river microbiome and antimicrobial resistance diversity}
+\entr
+{$2018$}
+{\bodyfontsc\color{blue}\href{https://www.biorxiv.org/content/10.1101/791129v2}{URSS project supervisor}}
+{University of Warwick}
+{Development of an amplicon polishing pipeline for long read sequence data targeting \textit {Mycobacterium bovis}}
+\entr
+{$2018$}
+{\bodyfontsc{Third year project}}
+{University of Warwick}
+{Development of a diagnostic isothermal LAMP assay to detect and resolve Mycobacterium species\textit{ (Mycobacterium bovis, M. Tuburculosis and M. avium) } in the environment}
+\entr
+{$2017$}
+{\bodyfontsc{URSS supervisor}}
+{University of Warwick}
+{Long range sequencing and development of a rapid diagnostic strain typing tool for \textit{Mycobacterium bovis} in the environment}
+\entr
+{$2017$}
+{\bodyfontsc{PhD mentor}}
+{University of Warwick}
+{Investigating the impact of hospital effluent on the spread of antimicrobial resistance in the environment}
+\entr
+{$2015$}
+{\bodyfontsc{Third year project}}
+{University of Brighton}
+{Genetic barcoding of the snake's head fritillary \textit{(Fritillaria meleagris)}}\\*
+
+\end{sentrylist}
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\subsection{Publications}
+\hspace{-22.4\parskip}\begin{reflist}
+\ent
+\textit{INSERT AUTHORS . } {INSERT AD PAPER TITLE} {BioRxiv \color{gray}($2020$) \bodyfontsc DOI: \thinfont\color{blue}\href{https://www.biorxiv.org/}{in submission}.}
+
+\ent
+\textit{James, RS., Rangama, S., Kref, J., Clark, V., Wellington EMW. } {Genetic characterisation of two antibiotic resistant environmental ST131 \textit {E. coli} \textrm isolates using a long read hybrid assembly approach } {BioRxiv \color{gray}($2020$) \bodyfontsc DOI: \thinfont\color{blue}\href{https://www.biorxiv.org/}{in submission}.}
+
+\ent
+\textit{Delaney, J., Raguideau, S., Holden, J., Zhang, L., Tipper, HJ., Hill, GL., Klumper, U., Zhang, T., James, RS., Travis, ER., Bowes, MJ., Hawkey, PM., Söderström Lindström, H., Tang, C., Gaze, HW., Mead, A., Quince, C., Singer, AC., Wellington, EMH. } {Impact of trimethoprim on the river microbiome and antimicrobial resistance } {BioRxiv \color{gray}($2019$) \bodyfontsc DOI: \thinfont\color{blue}\href{https://www.biorxiv.org/content/10.1101/2020.06.05.133348v1}{https://doi.org/10.1101/2020.06.05.133348}.}
+
+\ent
+\textit{Travis, ER., Hung, Y., Porter, D., Goodluck, P., James, RS., Roug, A., Kato-Maeda, M., Kazwala, R., Woutrina, A., Smith, PH., Courtenay, O., Wellington, EMH. } {Environmental reservoirs of \textit {Mycobacterium bovis} \textrm and \textit {Mycobacterium tuberculosis} \textrm in the Ruaha region, Tanzania } {BioRxiv \color{gray}($2019$) \bodyfontsc DOI: \thinfont\color{blue}\href{https://www.biorxiv.org/content/10.1101/791129v2}{https://doi.org/10.1101/790824}.}
+
+\ent
+{}
+{London Calling review article } {Nanopore tech \color{gray}($2019$) pages 14-15 \bodyfontsc DOI: \thinfont\color{blue}\href{https://nanoporetech.com/resource-centre/london-calling-review}{RV1031ENV101Jun2019}.}
+
+\ent
+\textit{James, RS., Travis, ER., Millard, AD., Hewlett, PC., Kravar-Garde, L., Wellington, EMW. } {LAMBDR: Long-range amplification and Nanopore sequencing of the \textit{Mycobacterium bovis} \textrm direct-repeat region. A novel method for in-silico spoligotyping of \textit {M. bovis} \textrm directly from badger faeces } {BioRxiv \color{gray}($2018$) \bodyfontsc DOI: \thinfont\color{blue}\href{https://www.biorxiv.org/content/10.1101/790824v1}{https://doi.org/10.1101/791129}.}
+
+\ent
+\textit{James, RS., Scott, DM., Yarnell., Overall, ADJ. } {Food availability and population structure: How do clumped and abundant sources of carrion affect the genetic diversity of the black‐backed jackal? } {Journal of Zoology \color{gray}($2016$) \bodyfontsc DOI: \thinfont\color{blue}\href{https://www.tandfonline.com/doi/full/10.1080/23312025.2015.1108479}{https://doi.org/10.1080/23312025.2015.1108479}.}
+
+\ent
+\textit{James, RS., James, PJ., Scott DM., Overall, ADJ. } {Characterization of six cross-species microsatellite markers suitable for estimating the population parameters of the black-backed jackal \textit{(Canis mesomelas)} \textrm using a non-invasive genetic recovery protocol } {Cogent Biology \color{gray}($2015$) \bodyfontsc DOI: \thinfont\color{blue}\href{https://www.tandfonline.com/doi/full/10.1080/23312025.2015.1108479}{https://doi.org/10.1080/23312025.2015.1108479}.}
+
+\ent
+\textit\footnotesize\flushleft{Curriculum vitae markdown}
+\end{reflist}
+
+\end{document}
