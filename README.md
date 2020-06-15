@@ -1,4 +1,4 @@
-# CV typesetting in LaTeX
+# CV typesetting LaTeX
 
 
 CV in `CV.tex`
