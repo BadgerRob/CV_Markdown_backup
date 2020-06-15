@@ -1,4 +1,6 @@
-# CV_Markdown_backup
-CV markdown in `CV.tex`
+# CV typesetting in Latex
 
-CV config file in `james-cv.cls`
+
+CV in `CV.tex`
+
+CV config in `james-cv.cls`
