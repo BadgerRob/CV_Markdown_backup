@@ -126,7 +126,7 @@
 
 \renewcommand{\subsection}[1]{
   \par\vspace{.5\parskip}%
-  \par\hspace{-19\parskip}%
+  \par\hspace{-22\parskip}%
   {\LARGE\headingfont\color{headercolor} #1}
   \par\vspace{.25\parskip}%
 }
@@ -167,7 +167,7 @@
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entr}[4]{%
-  #1&\parbox[t]{14.8cm}{%
+  #1&\parbox[t]{17.3cm}{%
     \textbf{#2}%
     \hfill%
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
@@ -182,7 +182,7 @@
 }
 \renewcommand{\bfseries}{\bodyfontcontact\normalsize\color{gray}}
 \newcommand{\ent}[4]{%
-  #1&\parbox[t]{16.1cm}{%
+  #1&\parbox[t]{18.6cm}{%
     \textbf{#2}%
     %\hfill%
     {\thinfont\normalsize\addfontfeature{Color=gray} #3}
@@ -230,7 +230,7 @@
   \renewcommand{\section}[1]{
     \par\vspace{0.25\baselineskip}{\Large\headingfont\color{gray} ##1}
   }
-  \begin{textblock}{4.6}(1.25, 1.32)
+  \begin{textblock}{4.5}(1.4, 1.32)
   \begin{justify}
   \obeycr
 }{%
